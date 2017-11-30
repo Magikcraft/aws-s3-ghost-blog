@@ -1,6 +1,6 @@
 # from the official ghost docker container based alpine linux with the
 # latest tag
-FROM ghost:1.17.3
+FROM ghost:1.18
 MAINTAINER csumpter
 
 # bring in package.json from ghost 1.17
