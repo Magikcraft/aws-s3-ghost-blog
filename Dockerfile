@@ -1,9 +1,9 @@
 # from the official ghost docker container based alpine linux with the
 # latest tag
-FROM ghost:1.18
+FROM ghost:1.21
 MAINTAINER csumpter
 
-# bring in package.json from ghost 1.17
+# bring in package.json from ghost 1.21
 # required to build the s3 storage adapter
 COPY ./package.json /var/lib/ghost/package.json
 
